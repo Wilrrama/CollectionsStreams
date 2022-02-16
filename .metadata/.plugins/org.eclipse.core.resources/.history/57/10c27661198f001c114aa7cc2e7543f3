@@ -1,0 +1,25 @@
+package queue;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class exercicioQueue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Queue<String> nomes = new LinkedList<>();
+		
+		nomes.add("Juliana");
+		nomes.add("Pedro");
+		nomes.add("Carlos");
+		nomes.add("Larissa");
+		nomes.add("João");
+		
+		for ( String nome: nomes) {
+			System.out.println(nome);
+		}
+		
+	}
+
+}

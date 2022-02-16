@@ -1,0 +1,28 @@
+package queue;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class exemploLinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Queue<String> filaBanco = new LinkedList<>();
+		
+		filaBanco.add("Patricia");
+		filaBanco.add("Roberto");
+		filaBanco.add("Flavio");
+		filaBanco.add("Pamela");
+		filaBanco.add("Anderson");
+		
+		System.out.println(filaBanco);		
+	
+		String clienteASerAtendido = filaBanco.poll();
+		
+		System.out.println("Atendendo:" + clienteASerAtendido);
+	
+		System.out.println(filaBanco);
+	}
+
+}
