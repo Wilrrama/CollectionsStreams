@@ -1,0 +1,49 @@
+package map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class exercicioMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Map <String, String> capitais = new HashMap<>();
+		capitais.put("AC","Acre");
+		capitais.put("AL","Alagoas");
+		capitais.put("AP","Amapá");
+		capitais.put("AM","Amazonas");
+		capitais.put("BA","Bahia");
+		capitais.put("CE","Ceará");
+		capitais.put("ES","Espírito Santo");
+		capitais.put("GO","Goias");
+		capitais.put("MA","Maranhao");
+		capitais.put("MT","Mato Grosso");
+		capitais.put("MS","Mato Grosso Sul");
+		capitais.put("MG","Minas Gerais");
+		capitais.put("PA","Pará");
+		capitais.put("PB","Paraíba");
+		capitais.put("PR","Paraná");
+		capitais.put("PE","Pernambuco");
+		capitais.put("PI","Piauí");
+		capitais.put("RJ","Rio de Janeiro");
+		capitais.put("RN","Rio Grande Norte");
+		capitais.put("RS","Rio Grande Sul");
+		capitais.put("RO","Rondonia");
+		capitais.put("RR","Roraima");
+		capitais.put("SC","Santa Catarina");
+		capitais.put("SP","São Paulo");
+		capitais.put("SE","Sergipe");
+		capitais.put("TO","Tocantins");
+		
+		System.out.println(capitais);
+		
+		capitais.remove("MG");
+		
+		capitais.put("DF","Distrito Federal");
+		
+		System.out.print("Tamanho do mapa: "+capitais.size());
+		
+	}
+
+}

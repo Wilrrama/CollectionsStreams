@@ -1,0 +1,15 @@
+package map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class exemploHashMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Map <String, Integer> campeoes = new HashMap<>();
+		
+	}
+
+}

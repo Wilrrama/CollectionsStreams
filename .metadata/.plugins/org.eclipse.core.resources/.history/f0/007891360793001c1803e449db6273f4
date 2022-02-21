@@ -1,0 +1,18 @@
+package map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class exercicioMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Map <String, String> capitais = new HashMap<>();
+		
+		
+		
+		
+	}
+
+}
